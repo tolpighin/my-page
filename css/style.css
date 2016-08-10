@@ -1,0 +1,85 @@
+* {
+    margin: 0;
+    /*padding: 0;*/
+}
+body {
+    background: #f5f5f5;
+    font-size: 1em;
+}
+.wrapper {
+    max-width:500px;
+    margin: 0 auto;
+}
+    header {
+        font-family: Arial;
+        border-bottom: 1px solid #d4d6d8;
+    }
+        header>h1 {
+            color: #010101;
+            font-size: 2.25em;
+            font-weight: bold;
+            margin: 50px 0 30px 0;
+        }
+        header>p.p-img {
+            text-align: center;
+        }
+        header p:last-child {
+            font-size: 0.875em;
+            color: #1f1f1f;
+            margin: 20px 0;
+        }
+    article {
+        font-family: Myriad Pro;
+        border-bottom: 1px solid #d4d6d8;
+    }
+    @font-face {
+        font-family: Myriad Pro;
+        src: url(../fonts/MyriadProRegular.ttf);
+    }
+        article>h2 {
+            color:  #010101;
+            font-size: 1.125em;
+            margin: 20px 0;
+        }
+        article ul {
+            font-size: 0.875em;
+            margin-left: 30px;
+            margin: 20px 0;
+            color: #1f1f1f;
+        }
+
+    .about-me {
+        font-family: Myriad Pro;
+        border-bottom: 1px solid #d4d6d8;
+    }
+        .about-me h2 {
+            color:  #010101;
+            font-size: 1.125em;
+            margin: 20px 0;
+        }
+        .about-me>p {
+            font-size: 0.875em;
+            color: #1f1f1f;
+            margin: 20px 0;
+        }
+        .about-me a {
+            color: #0056d3;
+            font-style: italic;
+            font-size: 0.875em;
+            text-decoration:none;
+            border-bottom: 1px solid #99ade3;
+        }
+    footer {
+        font-family: Myriad Pro;
+    }
+        footer h2 {
+            color:  #010101;
+            font-size: 1.125em;
+            margin: 20px 0;
+        }
+        footer>p {
+            font-size: 0.875em;
+            color: #1f1f1f;
+            margin: 20px 0;
+        }
+
